@@ -236,7 +236,6 @@ namespace Levels.Unity {
 		public enum Attributes {
 			None = 0,
 
-			// Networked sinks
 			Sink1 = 1 << 0,
 			Sink2 = 1 << 1,
 			Sink3 = 1 << 2,
@@ -248,11 +247,9 @@ namespace Levels.Unity {
 			Sink9 = 1 << 8,
 			Sink10 = 1 << 9,
 
-			// General sharing types
 			Local = 1 << 10,
 			Network = 1 << 11,
 
-			// Grouping helpers (optional)
 			AllSinks = Sink1 | Sink2 | Sink3 | Sink4 | Sink5 | Sink6 | Sink7 | Sink8 | Sink9 | Sink10,
 			AllDestinations = Local | Network
 		}
